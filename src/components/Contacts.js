@@ -29,7 +29,7 @@ return (
                         </div>
                         <p>{contact.name}</p>
                         <p className="username">@{contact.username}</p>
-                        <a  className="buttonlink" href={"http://"+contact.website}>{"http://"+contact.website}</a>
+                        <a  className="addlink" href={"http://"+contact.website}>{"http://"+contact.website}</a>
                         <Link className="btn btn-primary" to={`/${contact.id}`}>View</Link>
                     </div>
         ))}
