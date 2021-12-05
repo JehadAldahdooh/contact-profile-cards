@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  text-align: center;
+}
+.item-container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.card {
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+img {
+  height: 100px;
+  width: auto;
+}
+
+#profileImage {
+margin: 0 auto;
+width: 60px;
+height: 60px;
+border-radius: 100px;
+background: rgb(155, 153, 153);
+
+}
+#name {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 60px;
+}
+
+.username{
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.buttonlink{
+  margin-bottom: 16px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2.5em 6em 2.5em 6em;
+  gap: 6em;
+}
+
+.brand {
+  text-align: left;
+}
+.back {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+ul.dash {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+ul.dash > li:before {
+  display: inline-block;
+  content: "-";
+  width: 1.5em;
+  margin-left: -1em;
+}
+
+.cont_details{
+  margin-top: 4%!important;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin:0 auto;
+}
