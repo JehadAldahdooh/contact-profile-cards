@@ -118,3 +118,6 @@ ul.dash > li:before {
   justify-content: space-evenly;
   margin:0 auto;
 }
+.btn-primary {
+  background-color: #0d6efd!important;
+}
